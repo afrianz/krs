@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= $_ENV["BASE_URL"];
+$config['base_url']	= isset($_ENV["BASE_URL"]) ? $_ENV["BASE_URL"] : 'http://localhost:8080/';
 //$config['base_url']	= 'http://krs.gedelumbung.com/';
 
 /*

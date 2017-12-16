@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = $_ENV["DB_HOST"];
-$db['default']['username'] = $_ENV["DB_USER"];
-$db['default']['password'] = $_ENV["DB_PASS"];
-$db['default']['database'] = $_ENV["DB_NAME"];
+$db['default']['hostname'] = isset($_ENV["BASE_URL"]) ? $_ENV["DB_HOST"] : "localhost";
+$db['default']['username'] = isset($_ENV["DB_USER"]) ? $_ENV["DB_USER"] : "root";
+$db['default']['password'] = isset($_ENV["DB_PASS"]) ? $_ENV["DB_PASS"] : "";
+$db['default']['database'] = isset($_ENV["DB_NAME"]) ? $_ENV["DB_NAME"] : "krs3";
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
