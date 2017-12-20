@@ -1,5 +1,5 @@
 <div id="container">
-	<<CENTER><h1>Selamat Datang di Sistem Informasi Akademik Online</h1></CENTER>
+	<CENTER><h1>Selamat Datang di Sistem Informasi Akademik Online</h1></CENTER>
 
 	<div id="body">
 		<p>Silahkan login untuk mengakses informasi akademik.</p>
