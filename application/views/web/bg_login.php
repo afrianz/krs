@@ -9,8 +9,8 @@
 		<?php echo form_input($username); ?>
 		Password : 
 		<?php echo form_input($password); ?>
-		<?php echo form_submit('submit', 'Log In', ' class="btn-kirim-login"');?> 
-		<?php echo form_reset('submit', 'Hapus',' class="btn-kirim-login"');?>
+		<?php echo form_submit('submit', 'Log In', ' class="btn btn-primary"');?> 
+		<?php echo form_reset('submit', 'Hapus',' class="btn btn-primary"');?>
 		</div>
 		<?php echo form_close(); ?>
 	</div>

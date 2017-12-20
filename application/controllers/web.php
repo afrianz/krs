@@ -35,9 +35,9 @@ class Web extends CI_Controller {
 				'placeholder' => 'Masukkan password.....'
 			);
 			
-			$this->load->view('global/bg_top',$d);
-			$this->load->view('web/bg_login',$frm);
-			$this->load->view('global/bg_footer',$d);
+			//$this->load->view('global/bg_top',$d);
+			$this->load->view('web/login',$frm);
+			//$this->load->view('global/bg_footer',$d);
 		}
 		else
 		{
