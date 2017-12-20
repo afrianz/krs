@@ -8,7 +8,7 @@
 		?>
 		
 		<p>
-		Selamat Datang di Sistem Perwalian <b>T.Informatika</b>Kampus Universitas Muhammadiyah Gresik. Setelah melakukan login pertama kali ke Sistem Perwalian Online ini, harap segera melakukan pergantian password pada menu Pengaturan Akun, guna menanggulangi hal-hal yang tidak diinginkan.
+		Selamat Datang di Sistem Perwalian <b>T.Informatika</b> Kampus Universitas Muhammadiyah Gresik. Setelah melakukan login pertama kali ke Sistem Perwalian Online ini, harap segera melakukan pergantian password pada menu Pengaturan Akun, guna menanggulangi hal-hal yang tidak diinginkan.
 		</p>
 		
 		<div id="list">
